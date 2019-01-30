@@ -6,11 +6,9 @@ def bubble_sort array
 
 while isSorting
     i = 0
-   isSorting = false
+    isSorting = false
 
     while i <= array.length
-
-
         if array[i].is_a? Integer and array[i+1].is_a? Integer and array[i] > array[i+1]
             array[i],array[i+1] = array[i+1],array[i]
             isSorting = true
